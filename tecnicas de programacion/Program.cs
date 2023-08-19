@@ -12,12 +12,12 @@ namespace tecnicas_de_programacion
             Random rnd = new Random();
             Console.WriteLine(rnd.Next(0, 200));
             string Resultado = Console.ReadLine();
-            int numberp = int.Parse(Resultado);
+            int numberp2 = int.Parse(Resultado);
             string Porcentaje = Console.ReadLine();
-            int numberp1 = int.Parse(Porcentaje);
+            int number3 = int.Parse(Porcentaje);    
             Console.WriteLine(Porcentaje);
             double porcentaje = 1.3;
-            double num2 = (Porcentaje * Resultado);
+            double num2 = (numberp2 * number3);
             Console.WriteLine("numero aleatorio" + porcentaje);
 
 
